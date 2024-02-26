@@ -1,0 +1,120 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/aby/Projects/HouseForRentClean/Application/ApplicationHouse.csproj": {}
+  },
+  "projects": {
+    "/Users/aby/Projects/HouseForRentClean/Application/ApplicationHouse.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/aby/Projects/HouseForRentClean/Application/ApplicationHouse.csproj",
+        "projectName": "ApplicationHouse",
+        "projectPath": "/Users/aby/Projects/HouseForRentClean/Application/ApplicationHouse.csproj",
+        "packagesPath": "/Users/aby/.nuget/packages/",
+        "outputPath": "/Users/aby/Projects/HouseForRentClean/Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/aby/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/aby/Projects/HouseForRentClean/DomainHouse/DomainHouse.csproj": {
+                "projectPath": "/Users/aby/Projects/HouseForRentClean/DomainHouse/DomainHouse.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/aby/Projects/HouseForRentClean/DomainHouse/DomainHouse.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/aby/Projects/HouseForRentClean/DomainHouse/DomainHouse.csproj",
+        "projectName": "DomainHouse",
+        "projectPath": "/Users/aby/Projects/HouseForRentClean/DomainHouse/DomainHouse.csproj",
+        "packagesPath": "/Users/aby/.nuget/packages/",
+        "outputPath": "/Users/aby/Projects/HouseForRentClean/DomainHouse/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/aby/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

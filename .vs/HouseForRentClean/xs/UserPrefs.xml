@@ -1,0 +1,64 @@
+﻿<Properties StartupConfiguration="{6DD1A67F-FB3C-4082-80F4-9B3D8C274CC4}|https">
+  <MonoDevelop.Ide.ItemProperties.PresentationHouse.BackendHouse PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ArchitectureHouse/Repositories/HouseRepository.cs">
+    <Files>
+      <File FileName="PresentationHouse/FrontendHouse/Pages/Index.razor" Line="28" Column="5" IsPinned="True" />
+      <File FileName="PresentationHouse/FrontendHouse/Shared/Header.razor" />
+      <File FileName="PresentationHouse/FrontendHouse/Shared/MainLayout.razor" />
+      <File FileName="PresentationHouse/FrontendHouse/Shared/NavMenu.razor" />
+      <File FileName="PresentationHouse/FrontendHouse/Shared/Footer.razor" />
+      <File FileName="PresentationHouse/FrontendHouse/wwwroot/index.html" />
+      <File FileName="PresentationHouse/FrontendHouse/App.razor" />
+      <File FileName="PresentationHouse/FrontendHouse/_Imports.razor" />
+      <File FileName="PresentationHouse/FrontendHouse/Shared/SurveyPrompt.razor" />
+      <File FileName="PresentationHouse/FrontendHouse/Pages/About.razor" />
+      <File FileName="PresentationHouse/FrontendHouse/Pages/CallInAction.razor" />
+      <File FileName="PresentationHouse/FrontendHouse/Pages/Category.razor" />
+      <File FileName="PresentationHouse/FrontendHouse/Pages/FetchData.razor" />
+      <File FileName="PresentationHouse/FrontendHouse/Pages/HeaderStart.razor" />
+      <File FileName="PresentationHouse/FrontendHouse/Pages/PropertyListing.razor" />
+      <File FileName="DomainHouse/Entities/House.cs" />
+      <File FileName="ArchitectureHouse/Data/HouseContext.cs" />
+      <File FileName="Application/Dtos/HouseResponse.cs" Line="2" Column="27" />
+      <File FileName="Application/Contracts/IHouse.cs" Line="2" Column="23" />
+      <File FileName="ArchitectureHouse/Repositories/HouseRepository.cs" Line="9" Column="34" />
+      <File FileName="PresentationHouse/BackendHouse/appsettings.json" />
+      <File FileName="PresentationHouse/BackendHouse/Program.cs" Line="11" Column="137" />
+      <File FileName="../../../../usr/local/share/dotnet/sdk/8.0.201/Microsoft.Common.CurrentVersion.targets" Line="2153" Column="5" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="HouseForRentClean" expanded="True" selected="True">
+            <Node name="PresentationHouse" expanded="True">
+              <Node name="BackendHouse" expanded="True" />
+              <Node name="FrontendHouse" expanded="True" />
+            </Node>
+            <Node name="ApplicationHouse" expanded="True">
+              <Node name="Contracts" expanded="True" />
+              <Node name="Dtos" expanded="True" />
+            </Node>
+            <Node name="ArchitectureHouse" expanded="True">
+              <Node name="Repositories" expanded="True" />
+            </Node>
+            <Node name="DomainHouse" expanded="True">
+              <Node name="Entities" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>employee</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <DisabledProjects>
+    <String>FrontendHouse/FrontendHouse.csproj</String>
+  </DisabledProjects>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

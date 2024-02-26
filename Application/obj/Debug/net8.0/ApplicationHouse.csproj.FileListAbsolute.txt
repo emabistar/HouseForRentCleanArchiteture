@@ -1,0 +1,15 @@
+/Users/aby/Projects/HouseForRentClean/Application/bin/Debug/net8.0/ApplicationHouse.deps.json
+/Users/aby/Projects/HouseForRentClean/Application/bin/Debug/net8.0/ApplicationHouse.dll
+/Users/aby/Projects/HouseForRentClean/Application/bin/Debug/net8.0/ApplicationHouse.pdb
+/Users/aby/Projects/HouseForRentClean/Application/bin/Debug/net8.0/DomainHouse.dll
+/Users/aby/Projects/HouseForRentClean/Application/bin/Debug/net8.0/DomainHouse.pdb
+/Users/aby/Projects/HouseForRentClean/Application/obj/Debug/net8.0/ApplicationHouse.csproj.AssemblyReference.cache
+/Users/aby/Projects/HouseForRentClean/Application/obj/Debug/net8.0/ApplicationHouse.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aby/Projects/HouseForRentClean/Application/obj/Debug/net8.0/ApplicationHouse.AssemblyInfoInputs.cache
+/Users/aby/Projects/HouseForRentClean/Application/obj/Debug/net8.0/ApplicationHouse.AssemblyInfo.cs
+/Users/aby/Projects/HouseForRentClean/Application/obj/Debug/net8.0/ApplicationHouse.csproj.CoreCompileInputs.cache
+/Users/aby/Projects/HouseForRentClean/Application/obj/Debug/net8.0/Applicat.6307FA08.Up2Date
+/Users/aby/Projects/HouseForRentClean/Application/obj/Debug/net8.0/ApplicationHouse.dll
+/Users/aby/Projects/HouseForRentClean/Application/obj/Debug/net8.0/refint/ApplicationHouse.dll
+/Users/aby/Projects/HouseForRentClean/Application/obj/Debug/net8.0/ApplicationHouse.pdb
+/Users/aby/Projects/HouseForRentClean/Application/obj/Debug/net8.0/ref/ApplicationHouse.dll
