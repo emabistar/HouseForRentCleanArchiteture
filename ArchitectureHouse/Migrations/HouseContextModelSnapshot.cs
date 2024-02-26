@@ -64,6 +64,22 @@ namespace ArchitectureHouse.Migrations
 
                     b.ToTable("Houses");
                 });
+
+            modelBuilder.Entity("DomainHouse.Entities.Mode", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Modes");
+                });
 #pragma warning restore 612, 618
         }
     }

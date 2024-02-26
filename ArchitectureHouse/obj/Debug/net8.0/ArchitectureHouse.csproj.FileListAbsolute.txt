@@ -17,3 +17,4 @@
 /Users/aby/Projects/HouseForRentClean/ArchitectureHouse/obj/Debug/net8.0/ArchitectureHouse.pdb
 /Users/aby/Projects/HouseForRentClean/ArchitectureHouse/obj/Debug/net8.0/ArchitectureHouse.genruntimeconfig.cache
 /Users/aby/Projects/HouseForRentClean/ArchitectureHouse/obj/Debug/net8.0/ref/ArchitectureHouse.dll
+/Users/aby/Projects/HouseForRentClean/ArchitectureHouse/obj/Debug/net8.0/ArchitectureHouse.sourcelink.json

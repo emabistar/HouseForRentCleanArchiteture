@@ -140,3 +140,4 @@
 /Users/aby/Projects/HouseForRentClean/PresentationHouse/BackendHouse/obj/Debug/net8.0/BackendHouse.pdb
 /Users/aby/Projects/HouseForRentClean/PresentationHouse/BackendHouse/obj/Debug/net8.0/BackendHouse.genruntimeconfig.cache
 /Users/aby/Projects/HouseForRentClean/PresentationHouse/BackendHouse/obj/Debug/net8.0/ref/BackendHouse.dll
+/Users/aby/Projects/HouseForRentClean/PresentationHouse/BackendHouse/obj/Debug/net8.0/BackendHouse.sourcelink.json

@@ -13,3 +13,4 @@
 /Users/aby/Projects/HouseForRentClean/Application/obj/Debug/net8.0/refint/ApplicationHouse.dll
 /Users/aby/Projects/HouseForRentClean/Application/obj/Debug/net8.0/ApplicationHouse.pdb
 /Users/aby/Projects/HouseForRentClean/Application/obj/Debug/net8.0/ref/ApplicationHouse.dll
+/Users/aby/Projects/HouseForRentClean/Application/obj/Debug/net8.0/ApplicationHouse.sourcelink.json

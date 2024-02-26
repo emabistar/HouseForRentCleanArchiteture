@@ -9,3 +9,4 @@
 /Users/aby/Projects/HouseForRentClean/DomainHouse/obj/Debug/net8.0/refint/DomainHouse.dll
 /Users/aby/Projects/HouseForRentClean/DomainHouse/obj/Debug/net8.0/DomainHouse.pdb
 /Users/aby/Projects/HouseForRentClean/DomainHouse/obj/Debug/net8.0/ref/DomainHouse.dll
+/Users/aby/Projects/HouseForRentClean/DomainHouse/obj/Debug/net8.0/DomainHouse.sourcelink.json
