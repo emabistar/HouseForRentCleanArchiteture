@@ -1,1 +1,2 @@
 # HouseForRentCleanArchiteture
+HouseForRent is .Net application for house reting  with a Frontend BlazorApp with .NetCore APi for Backendhouse(PrensetationLayer) and a ApplicationLayer( ApplicationHouse),Architeturelayer(ArchitectureHouse),DomainLayer(DomainHouse) with Docker Sqlsever  server for container(image) .This House for rent application  clean achitecture make it maintainable,scalable,testable application and loosely couple.
