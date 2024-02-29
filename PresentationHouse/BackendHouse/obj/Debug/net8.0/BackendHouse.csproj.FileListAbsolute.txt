@@ -126,6 +126,7 @@
 /Users/aby/Projects/HouseForRentClean/PresentationHouse/BackendHouse/obj/Debug/net8.0/BackendHouse.csproj.CoreCompileInputs.cache
 /Users/aby/Projects/HouseForRentClean/PresentationHouse/BackendHouse/obj/Debug/net8.0/BackendHouse.MvcApplicationPartsAssemblyInfo.cs
 /Users/aby/Projects/HouseForRentClean/PresentationHouse/BackendHouse/obj/Debug/net8.0/BackendHouse.MvcApplicationPartsAssemblyInfo.cache
+/Users/aby/Projects/HouseForRentClean/PresentationHouse/BackendHouse/obj/Debug/net8.0/BackendHouse.sourcelink.json
 /Users/aby/Projects/HouseForRentClean/PresentationHouse/BackendHouse/obj/Debug/net8.0/staticwebassets.build.json
 /Users/aby/Projects/HouseForRentClean/PresentationHouse/BackendHouse/obj/Debug/net8.0/staticwebassets.development.json
 /Users/aby/Projects/HouseForRentClean/PresentationHouse/BackendHouse/obj/Debug/net8.0/staticwebassets/msbuild.BackendHouse.Microsoft.AspNetCore.StaticWebAssets.props
@@ -140,4 +141,7 @@
 /Users/aby/Projects/HouseForRentClean/PresentationHouse/BackendHouse/obj/Debug/net8.0/BackendHouse.pdb
 /Users/aby/Projects/HouseForRentClean/PresentationHouse/BackendHouse/obj/Debug/net8.0/BackendHouse.genruntimeconfig.cache
 /Users/aby/Projects/HouseForRentClean/PresentationHouse/BackendHouse/obj/Debug/net8.0/ref/BackendHouse.dll
-/Users/aby/Projects/HouseForRentClean/PresentationHouse/BackendHouse/obj/Debug/net8.0/BackendHouse.sourcelink.json
+/Users/aby/Projects/HouseForRentClean/PresentationHouse/BackendHouse/bin/Debug/net8.0/Microsoft.AspNetCore.JsonPatch.dll
+/Users/aby/Projects/HouseForRentClean/PresentationHouse/BackendHouse/bin/Debug/net8.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+/Users/aby/Projects/HouseForRentClean/PresentationHouse/BackendHouse/bin/Debug/net8.0/Newtonsoft.Json.dll
+/Users/aby/Projects/HouseForRentClean/PresentationHouse/BackendHouse/bin/Debug/net8.0/Newtonsoft.Json.Bson.dll

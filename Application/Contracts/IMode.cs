@@ -1,10 +1,14 @@
 ﻿using System;
+using ApplicationHouse.Dtos;
+using DomainHouse.Entities;
+
 namespace ApplicationHouse.Contracts
 {
 	public interface IMode
 	{
-		//public Task<Response> CreateMode(EventResetMode model);
-		//public Task List<NodeDtos>>GetAllAsync();
-	}
+		public Task<ModeResponse> CreateModeAsync(Mode model);
+		public Task <List<Mode>> GetAllAsync();
+        
+    }
 }
 

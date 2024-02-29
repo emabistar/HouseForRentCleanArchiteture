@@ -39,8 +39,8 @@ namespace ArchitectureHouse.Migrations
                     b.Property<string>("Location")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Mode")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int?>("ModeId")
+                        .HasColumnType("int");
 
                     b.Property<int?>("NOfBath")
                         .HasColumnType("int");
@@ -62,6 +62,8 @@ namespace ArchitectureHouse.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("ModeId");
+
                     b.ToTable("Houses");
                 });
 
@@ -79,6 +81,20 @@ namespace ArchitectureHouse.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Modes");
+                });
+
+            modelBuilder.Entity("DomainHouse.Entities.House", b =>
+                {
+                    b.HasOne("DomainHouse.Entities.Mode", "Mode")
+                        .WithMany("Houses")
+                        .HasForeignKey("ModeId");
+
+                    b.Navigation("Mode");
+                });
+
+            modelBuilder.Entity("DomainHouse.Entities.Mode", b =>
+                {
+                    b.Navigation("Houses");
                 });
 #pragma warning restore 612, 618
         }

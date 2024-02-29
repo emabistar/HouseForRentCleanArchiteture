@@ -1,4 +1,5 @@
-﻿using ApplicationHouse.Contracts;
+﻿using System.Text.Json.Serialization;
+using ApplicationHouse.Contracts;
 using ApplicationHouse.Services;
 using ArchitectureHouse.Data;
 using ArchitectureHouse.Repositories;
@@ -15,7 +16,14 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddDbContext<HouseContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddScoped<IHouse, HouseRepository>();
+builder.Services.AddScoped<IMode, ModeRepository>();
 builder.Services.AddSwaggerGen();
+// To Avois cycling  we need to add this part otherwise we need tomake some change Reposotory to introduce ModelVieewDtos
+//builder.Services.AddControllers().AddJsonOptions(options =>
+//{
+    //options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
+   // options.JsonSerializerOptions.WriteIndented = true;
+//});
 
 var app = builder.Build();
 

@@ -38,9 +38,36 @@ namespace ArchitectureHouse.Repositories
             return new HouseResponse(false, "House deleted");
         }
 
-        public async Task<List<House>> GetAllHouseAsync()
+        /** public async Task<List<House>> GetAllHouseAsync()
         {
-            return await _context.Houses.AsNoTracking().ToListAsync();
+            return  await _context.Houses
+                .Include(m => m.Mode).ToListAsync();
+        
+        }
+        */
+        public async Task<List<ModelViewHouseDtos>> GetAllHouseAsync()
+        {
+            var house = await _context.Houses.Select(item => new ModelViewHouseDtos
+            {
+                Id = item.Id,
+                Name = item.Name,
+                Price = item.Price,
+                Image = item.Image,
+                Type = item.Type,
+                Size = item.Size,
+                NOfBath = item.NOfBath,
+                NOfBed = item.NOfBed,
+                Location = item.Location,
+                ModeId = item.ModeId,
+                Mode = new Mode()
+                {
+                    Id = item.ModeId,
+                    Name = item.Mode!.Name
+                }
+            }).ToListAsync();
+
+            return house;
+
         }
 
         public async Task<House> GetHouseByIdAsync(int id)

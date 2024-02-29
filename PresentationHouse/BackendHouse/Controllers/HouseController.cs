@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using ApplicationHouse.Contracts;
+using ApplicationHouse.Dtos;
 using DomainHouse.Entities;
 using Microsoft.AspNetCore.Mvc;
 
