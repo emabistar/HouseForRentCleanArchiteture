@@ -11,10 +11,10 @@
 /Users/aby/Projects/HouseForRentClean/ArchitectureHouse/obj/Debug/net8.0/ArchitectureHouse.AssemblyInfoInputs.cache
 /Users/aby/Projects/HouseForRentClean/ArchitectureHouse/obj/Debug/net8.0/ArchitectureHouse.AssemblyInfo.cs
 /Users/aby/Projects/HouseForRentClean/ArchitectureHouse/obj/Debug/net8.0/ArchitectureHouse.csproj.CoreCompileInputs.cache
+/Users/aby/Projects/HouseForRentClean/ArchitectureHouse/obj/Debug/net8.0/ArchitectureHouse.sourcelink.json
 /Users/aby/Projects/HouseForRentClean/ArchitectureHouse/obj/Debug/net8.0/Architec.CB05BC9B.Up2Date
 /Users/aby/Projects/HouseForRentClean/ArchitectureHouse/obj/Debug/net8.0/ArchitectureHouse.dll
 /Users/aby/Projects/HouseForRentClean/ArchitectureHouse/obj/Debug/net8.0/refint/ArchitectureHouse.dll
 /Users/aby/Projects/HouseForRentClean/ArchitectureHouse/obj/Debug/net8.0/ArchitectureHouse.pdb
 /Users/aby/Projects/HouseForRentClean/ArchitectureHouse/obj/Debug/net8.0/ArchitectureHouse.genruntimeconfig.cache
 /Users/aby/Projects/HouseForRentClean/ArchitectureHouse/obj/Debug/net8.0/ref/ArchitectureHouse.dll
-/Users/aby/Projects/HouseForRentClean/ArchitectureHouse/obj/Debug/net8.0/ArchitectureHouse.sourcelink.json

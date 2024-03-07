@@ -5,8 +5,8 @@
 /Users/aby/Projects/HouseForRentClean/DomainHouse/obj/Debug/net8.0/DomainHouse.AssemblyInfoInputs.cache
 /Users/aby/Projects/HouseForRentClean/DomainHouse/obj/Debug/net8.0/DomainHouse.AssemblyInfo.cs
 /Users/aby/Projects/HouseForRentClean/DomainHouse/obj/Debug/net8.0/DomainHouse.csproj.CoreCompileInputs.cache
+/Users/aby/Projects/HouseForRentClean/DomainHouse/obj/Debug/net8.0/DomainHouse.sourcelink.json
 /Users/aby/Projects/HouseForRentClean/DomainHouse/obj/Debug/net8.0/DomainHouse.dll
 /Users/aby/Projects/HouseForRentClean/DomainHouse/obj/Debug/net8.0/refint/DomainHouse.dll
 /Users/aby/Projects/HouseForRentClean/DomainHouse/obj/Debug/net8.0/DomainHouse.pdb
 /Users/aby/Projects/HouseForRentClean/DomainHouse/obj/Debug/net8.0/ref/DomainHouse.dll
-/Users/aby/Projects/HouseForRentClean/DomainHouse/obj/Debug/net8.0/DomainHouse.sourcelink.json

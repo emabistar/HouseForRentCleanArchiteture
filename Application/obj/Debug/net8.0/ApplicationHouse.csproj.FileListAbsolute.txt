@@ -8,9 +8,9 @@
 /Users/aby/Projects/HouseForRentClean/Application/obj/Debug/net8.0/ApplicationHouse.AssemblyInfoInputs.cache
 /Users/aby/Projects/HouseForRentClean/Application/obj/Debug/net8.0/ApplicationHouse.AssemblyInfo.cs
 /Users/aby/Projects/HouseForRentClean/Application/obj/Debug/net8.0/ApplicationHouse.csproj.CoreCompileInputs.cache
+/Users/aby/Projects/HouseForRentClean/Application/obj/Debug/net8.0/ApplicationHouse.sourcelink.json
 /Users/aby/Projects/HouseForRentClean/Application/obj/Debug/net8.0/Applicat.6307FA08.Up2Date
 /Users/aby/Projects/HouseForRentClean/Application/obj/Debug/net8.0/ApplicationHouse.dll
 /Users/aby/Projects/HouseForRentClean/Application/obj/Debug/net8.0/refint/ApplicationHouse.dll
 /Users/aby/Projects/HouseForRentClean/Application/obj/Debug/net8.0/ApplicationHouse.pdb
 /Users/aby/Projects/HouseForRentClean/Application/obj/Debug/net8.0/ref/ApplicationHouse.dll
-/Users/aby/Projects/HouseForRentClean/Application/obj/Debug/net8.0/ApplicationHouse.sourcelink.json

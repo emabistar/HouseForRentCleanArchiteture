@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{40C72897-963D-4C3B-8879-3767E98C0EC0}|https">
   <MonoDevelop.Ide.ItemProperties.PresentationHouse.BackendHouse PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="PresentationHouse/FrontendHouse/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PresentationHouse/FrontendHouse/Shared/Copy-cod.razor">
     <Files>
       <File FileName="PresentationHouse/FrontendHouse/Pages/Index.razor" Line="28" Column="5" IsPinned="True" />
       <File FileName="PresentationHouse/FrontendHouse/Shared/Header.razor" />
@@ -10,29 +10,46 @@
       <File FileName="PresentationHouse/FrontendHouse/Shared/Footer.razor" />
       <File FileName="PresentationHouse/FrontendHouse/wwwroot/index.html" />
       <File FileName="PresentationHouse/FrontendHouse/App.razor" />
-      <File FileName="PresentationHouse/FrontendHouse/_Imports.razor" Line="12" Column="28" />
+      <File FileName="PresentationHouse/FrontendHouse/_Imports.razor" />
       <File FileName="PresentationHouse/FrontendHouse/Shared/SurveyPrompt.razor" />
       <File FileName="PresentationHouse/FrontendHouse/Pages/About.razor" />
       <File FileName="PresentationHouse/FrontendHouse/Pages/CallInAction.razor" />
       <File FileName="PresentationHouse/FrontendHouse/Pages/Category.razor" />
       <File FileName="PresentationHouse/FrontendHouse/Pages/FetchData.razor" />
       <File FileName="PresentationHouse/FrontendHouse/Pages/HeaderStart.razor" />
-      <File FileName="PresentationHouse/FrontendHouse/Pages/PropertyListing.razor" Line="13" Column="72" />
-      <File FileName="DomainHouse/Entities/House.cs" Line="1" Column="1" />
-      <File FileName="ArchitectureHouse/Data/HouseContext.cs" Line="1" Column="1" />
-      <File FileName="../../../../usr/local/share/dotnet/sdk/8.0.201/Microsoft.Common.CurrentVersion.targets" />
-      <File FileName="Application/Service/HouseService.cs" Line="42" Column="29" />
-      <File FileName="Application/Services/IHouseService.cs" Line="11" Column="44" />
-      <File FileName="PresentationHouse/BackendHouse/Controllers/HouseController.cs" Line="52" Column="56" />
-      <File FileName="PresentationHouse/FrontendHouse/Program.cs" Line="11" Column="96" />
+      <File FileName="PresentationHouse/FrontendHouse/Pages/PropertyListing.razor" Line="95" Column="1" />
+      <File FileName="DomainHouse/Entities/House.cs" Line="24" Column="27" />
+      <File FileName="ArchitectureHouse/Data/HouseContext.cs" Line="23" Column="31" />
+      <File FileName="PresentationHouse/BackendHouse/Controllers/HouseController.cs" Line="27" Column="26" />
+      <File FileName="PresentationHouse/FrontendHouse/Program.cs" Line="10" Column="1" />
+      <File FileName="Application/Contracts/IHouse.cs" Line="10" Column="37" />
+      <File FileName="Application/Dtos/HouseResponse.cs" Line="8" Column="4" />
+      <File FileName="Application/Services/HouseService.cs" Line="32" Column="63" />
+      <File FileName="DomainHouse/Entities/Mode.cs" Line="9" Column="23" />
+      <File FileName="Application/Contracts/IMode.cs" Line="9" Column="44" />
+      <File FileName="PresentationHouse/BackendHouse/Program.cs" Line="21" Column="122" />
+      <File FileName="PresentationHouse/BackendHouse/appsettings.json" Line="17" Column="111" />
+      <File FileName="Application/Dtos/ModeResponse.cs" Line="6" Column="31" />
+      <File FileName="ArchitectureHouse/Repositories/ModeRepository.cs" Line="17" Column="8" />
+      <File FileName="Application/Services/IModeService.cs" Line="8" Column="31" />
+      <File FileName="Application/Services/ModeService.cs" Line="24" Column="57" />
+      <File FileName="ArchitectureHouse/Repositories/HouseRepository.cs" Line="69" Column="26" />
+      <File FileName="Application/Dtos/ModelViewHouseDtos.cs" Line="21" Column="20" />
+      <File FileName="PresentationHouse/FrontendHouse/Pages/PropertyListing (copy).razor" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="HouseForRentClean" expanded="True">
             <Node name="PresentationHouse" expanded="True">
-              <Node name="BackendHouse" selected="True">
+              <Node name="BackendHouse" expanded="True">
                 <Node name="Controllers" expanded="True" />
+              </Node>
+              <Node name="FrontendHouse">
+                <Node name="Pages" expanded="True" />
+                <Node name="Properties" expanded="True" />
+                <Node name="Shared" expanded="True" />
+                <Node name="wwwroot" expanded="True" />
               </Node>
             </Node>
             <Node name="ApplicationHouse" expanded="True">
