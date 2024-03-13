@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "W2FrrUKzXElrX3vNautrhSBLDpR5VuRrRmf+FDk/gRM=",
+  "Hash": "EQTxbWhzSoLc5W+X7vVMPr+F1F10GcqZJrmJGBfwTWI=",
   "Source": "FrontendHouse",
   "BasePath": "/",
   "Mode": "Root",
@@ -8603,6 +8603,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/index.html"
+    },
+    {
+      "Identity": "/Users/aby/Projects/HouseForRentClean/PresentationHouse/FrontendHouse/wwwroot/js/dialog.js",
+      "SourceId": "FrontendHouse",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/aby/Projects/HouseForRentClean/PresentationHouse/FrontendHouse/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "js/dialog.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/dialog.js"
     },
     {
       "Identity": "/Users/aby/Projects/HouseForRentClean/PresentationHouse/FrontendHouse/wwwroot/js/main.js",

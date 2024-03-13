@@ -149,6 +149,10 @@
       "PackagePath": "staticwebassets/index.html"
     },
     {
+      "Id": "/Users/aby/Projects/HouseForRentClean/PresentationHouse/FrontendHouse/wwwroot/js/dialog.js",
+      "PackagePath": "staticwebassets/js/dialog.js"
+    },
+    {
       "Id": "/Users/aby/Projects/HouseForRentClean/PresentationHouse/FrontendHouse/wwwroot/js/main.js",
       "PackagePath": "staticwebassets/js/main.js"
     },

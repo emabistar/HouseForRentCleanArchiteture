@@ -54,6 +54,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/aby/Projects/HouseForRentClean/PresentationHouse/FrontendHouse/Pages/ModalDialogCo.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTW9kYWxEaWFsb2dDby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/aby/Projects/HouseForRentClean/PresentationHouse/FrontendHouse/Pages/PropertyListing.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvcGVydHlMaXN0aW5nLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
@@ -76,6 +80,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/aby/Projects/HouseForRentClean/PresentationHouse/FrontendHouse/Shared/Header.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0hlYWRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aby/Projects/HouseForRentClean/PresentationHouse/FrontendHouse/Shared/ModalDialog.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01vZGFsRGlhbG9nLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/aby/Projects/HouseForRentClean/PresentationHouse/FrontendHouse/Shared/SurveyPrompt.razor]

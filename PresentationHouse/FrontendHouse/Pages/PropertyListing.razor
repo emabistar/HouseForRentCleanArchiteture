@@ -18,10 +18,10 @@
             <div class="col-lg-6 text-start text-lg-end wow slideInRight" data-wow-delay="0.1s">
                 <ul class="nav nav-pills d-inline-flex justify-content-end mb-5">
                     @if (tempModeData != null || tempModeData!.Count() > 0)
+                    {
+                       
+                        foreach (var item in tempModeData!)
                         {
-                            //foreach (var item in houseData!.Select(x => x.Mode?.Name).Distinct())
-                            foreach( var item in tempModeData! )
-                            {
                             <li class="nav-item me-2">
 
                                 <a class="btn btn-outline-primary active" data-bs-toggle="pill" @onclick="()=>HandleClick(item.Id)">@item.Name</a>
@@ -72,12 +72,17 @@
                     {
 
                     }
-
-
+                    <div class="col-12 col-md-6 wow fadeInUp text-center" data-wow-delay="0.1s">
+                        <a class="btn btn-primary py-3 px-5" href="">Browse More Request</a>
+                    </div>
                 </div>
+
             </div>
+
         </div>
+
     </div>
+   
 </div>
 
 
