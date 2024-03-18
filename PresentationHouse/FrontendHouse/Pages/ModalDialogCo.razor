@@ -1,17 +1,19 @@
 ﻿
 <div>
-    
-    <dialog id="my-dialog" @onclose="onClose" @oncancel="onCancel">
+   
+    <dialog id="my-dialog" @onclick="OnClose" @oncancel="OnCancel">
         <p> Hi</p>
         <form method="dialog">
             <button>Close</button>
+            <button>Cancel</button>
+
         </form>
     </dialog>
 </div>
 
 @code {
     string ? message;
-    void onClose(EventArgs e) => message += "onclosehello,";
-    void onCancel(EventArgs e) => message += "oncancel,";
+    void OnClose(EventArgs e) => message += "onclosehello,";
+    void OnCancel(EventArgs e) => message += "oncancel,";
 }
 

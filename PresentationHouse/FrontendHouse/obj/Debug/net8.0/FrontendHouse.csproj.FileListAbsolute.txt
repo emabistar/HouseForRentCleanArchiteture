@@ -1,3 +1,10 @@
+/Users/aby/Projects/HouseForRentClean/PresentationHouse/FrontendHouse/obj/Debug/net8.0/FrontendHouse.csproj.AssemblyReference.cache
+/Users/aby/Projects/HouseForRentClean/PresentationHouse/FrontendHouse/obj/Debug/net8.0/FrontendHouse.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aby/Projects/HouseForRentClean/PresentationHouse/FrontendHouse/obj/Debug/net8.0/FrontendHouse.AssemblyInfoInputs.cache
+/Users/aby/Projects/HouseForRentClean/PresentationHouse/FrontendHouse/obj/Debug/net8.0/FrontendHouse.AssemblyInfo.cs
+/Users/aby/Projects/HouseForRentClean/PresentationHouse/FrontendHouse/obj/Debug/net8.0/FrontendHouse.csproj.CoreCompileInputs.cache
+/Users/aby/Projects/HouseForRentClean/PresentationHouse/FrontendHouse/obj/Debug/net8.0/FrontendHouse.MvcApplicationPartsAssemblyInfo.cache
+/Users/aby/Projects/HouseForRentClean/PresentationHouse/FrontendHouse/obj/Debug/net8.0/FrontendHouse.sourcelink.json
 /Users/aby/Projects/HouseForRentClean/PresentationHouse/FrontendHouse/bin/Debug/net8.0/wwwroot/_framework/ApplicationHouse.pdb
 /Users/aby/Projects/HouseForRentClean/PresentationHouse/FrontendHouse/bin/Debug/net8.0/wwwroot/_framework/ApplicationHouse.wasm
 /Users/aby/Projects/HouseForRentClean/PresentationHouse/FrontendHouse/bin/Debug/net8.0/wwwroot/_framework/blazor.boot.json
@@ -621,13 +628,6 @@
 /Users/aby/Projects/HouseForRentClean/PresentationHouse/FrontendHouse/bin/Debug/net8.0/DomainHouse.dll
 /Users/aby/Projects/HouseForRentClean/PresentationHouse/FrontendHouse/bin/Debug/net8.0/ApplicationHouse.pdb
 /Users/aby/Projects/HouseForRentClean/PresentationHouse/FrontendHouse/bin/Debug/net8.0/DomainHouse.pdb
-/Users/aby/Projects/HouseForRentClean/PresentationHouse/FrontendHouse/obj/Debug/net8.0/FrontendHouse.csproj.AssemblyReference.cache
-/Users/aby/Projects/HouseForRentClean/PresentationHouse/FrontendHouse/obj/Debug/net8.0/FrontendHouse.GeneratedMSBuildEditorConfig.editorconfig
-/Users/aby/Projects/HouseForRentClean/PresentationHouse/FrontendHouse/obj/Debug/net8.0/FrontendHouse.AssemblyInfoInputs.cache
-/Users/aby/Projects/HouseForRentClean/PresentationHouse/FrontendHouse/obj/Debug/net8.0/FrontendHouse.AssemblyInfo.cs
-/Users/aby/Projects/HouseForRentClean/PresentationHouse/FrontendHouse/obj/Debug/net8.0/FrontendHouse.csproj.CoreCompileInputs.cache
-/Users/aby/Projects/HouseForRentClean/PresentationHouse/FrontendHouse/obj/Debug/net8.0/FrontendHouse.MvcApplicationPartsAssemblyInfo.cache
-/Users/aby/Projects/HouseForRentClean/PresentationHouse/FrontendHouse/obj/Debug/net8.0/FrontendHouse.sourcelink.json
 /Users/aby/Projects/HouseForRentClean/PresentationHouse/FrontendHouse/obj/Debug/net8.0/webcil/Microsoft.AspNetCore.Authorization.wasm
 /Users/aby/Projects/HouseForRentClean/PresentationHouse/FrontendHouse/obj/Debug/net8.0/webcil/Microsoft.AspNetCore.Components.wasm
 /Users/aby/Projects/HouseForRentClean/PresentationHouse/FrontendHouse/obj/Debug/net8.0/webcil/Microsoft.AspNetCore.Components.Forms.wasm

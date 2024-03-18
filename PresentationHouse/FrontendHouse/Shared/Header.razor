@@ -7,7 +7,10 @@
 -->
 <!-- Navbar Start -->
 @inject IJSRuntime js
-<div class="container-fluid nav-bar bg-transparent">
+@inject IHouseService houseService
+@inject IModeService  modeService
+
+<div class="container nav-bar bg-transparent">
     <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
         <a href="index.html" class="navbar-brand d-flex align-items-center text-center">
             <div class="icon p-2 me-2">
@@ -39,37 +42,87 @@
                 </div>
                 <a href="contact.html" class="nav-item nav-link">Contact</a>
             </div>
-            <!--
-    <button class="btn btn-primary px-3 d-none d-lg-flex " @onclick="() => ModalDialog?.Open()">Add Property</button>
-    <ModalDialog @ref="@ModalDialog" Title="Add Property">
-        <div class="row">
-            <h3>Fill form</h3>
-            <hr>
 
-            <form>
-                <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                </div>
-                <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
-                </div>
-                <div class="mb-3 form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                </div>
-                <button type="submit" class="btn btn-primary mb-3">Submit</button>
-            </form>
-            <button class="btn btn-primary" @onclick="() => ModalDialog?.Close()">Close</button>
-        </div>
-    </ModalDialog>
+            <button class="btn btn-primary px-3 d-none d-lg-flex " @onclick="() => ModalDialog?.Open()">Add Property</button>
+           
+            <ModalDialog @ref="@ModalDialog" Title="Add Properties">
+                <div class="col-8 offset-2">
+                    <div class="row">
+                        <h3>Fill form To Add Property</h3>
+                        <hr>
 
-        -->
-            <!--  <a href="" class="btn btn-primary px-3 d-none d-lg-flex">Add Property</a>-->
-            <a href="" class="btn btn-primary px-3 d-none d-lg-flex" @onclick=" ShowDialog">Add Property</a>
-            <ModalDialogCo></ModalDialogCo>
+                        <EditForm Model="@house" OnSubmit="HandleSubmit">
+
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Name</label>
+
+                                <InputText id="name" class="form-control" @bind-Value="@house.Name"></InputText>
+
+
+                            </div>
+                            <div class="mb-3">
+                                <label for="type" class="form-label">Type</label>
+                                <InputText id="type" class="form-control" @bind-Value="@house.Type"></InputText>
+
+                            </div>
+                            <div class="mb-3">
+                                <label for="price" class="form-label">Price</label>
+                                <InputText class="form-control" @bind-Value="@house.Price" id="price"></InputText>
+
+                            </div>
+                            <div class="mb-3">
+                                <label for="location" class="form-label">Location</label>
+                                <InputText id="location" class="form-control" @bind-Value="@house.Location"></InputText>
+
+                            </div>
+                            <div class="mb-3">
+                                <label for="size" class="form-label">Size</label>
+                                <InputText id="size" class="form-control" @bind-Value="@house.Size"></InputText>
+
+                            </div>
+                            <div class="mb-3">
+                                <label for="nOfBed" class="form-label">NOfBed</label>
+                                <InputNumber id="nOfBed" class="form-control" @bind-Value="@house.NOfBed"></InputNumber>
+
+                            </div>
+                            <div class="mb-3">
+                                <label for="nOfBath" class="form-label">NOfBath</label>
+                                <InputNumber id="nOfBath" class="form-control" @bind-Value="@house.NOfBath"></InputNumber>
+
+                            </div>
+                            <div class="mb-3">
+                                <label for="image" class="form-label">Image</label>
+                                <InputText id="image " class="form-control" @bind-Value="@house.Image"></InputText>
+
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="createDate" class="form-label"> CreatedDate</label>
+                                <InputDate class="form-control" @bind-Value="@house.CreatedDate"></InputDate>
+
+                            </div>
+
+                            <div class="mb-3 form-selected">
+
+                                <InputSelect id="mode" @bind-Value="house.ModeId" class=" form-select">
+                                    @foreach (var item in tempMode)
+                                    {
+                                        <option value="@item.Id">@item.Name</option>
+                                    }
+                                </InputSelect>
+
+                            </div>
+                            <button type="submit" class="btn btn-primary mb-3">Submit</button>
+                        </EditForm>
+                        <button class="btn btn-primary" @onclick="() => ModalDialog?.Close()">Close</button>
+                    </div>
+                </div>
+            </ModalDialog>
+
+
+            <!--  <a href="" class="btn btn-primary px-3 d-none d-lg-flex">Add Property</a>
+    <a href="" class="btn btn-primary px-3 d-none d-lg-flex" @onclick=" ShowDialog">Add Property</a>
+    <ModalDialogCo></ModalDialogCo>!-->
         </div>
     </nav>
 </div>
@@ -77,11 +130,49 @@
 
 
 @code {
+    House house = new();
+    Mode mode = new();
     private ModalDialog? ModalDialog { get; set; }
+    List<House> houseData = new();
+    DateTime dateTime;
+    //List<House> tempHouseData = new();
+    List<Mode> tempMode = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await GetData();
+
+
+    }
 
     private async Task ShowDialog()
     {
+
         await js.InvokeVoidAsync("myDialog");
+
+    }
+    private async Task HideDialog()
+    {
+
+        await js.InvokeVoidAsync("hideDialog");
+
+    }
+
+
+    private async Task GetData()
+    {
+
+        // tempHouseData = await houseService.GetAllHouseAsync();
+        //  houseData.AddRange(tempHouseData);
+        tempMode = await modeService.GetAllAsync();
+
+
+    }
+    public void HandleSubmit()
+    {
+        houseService.CreateHouseAsync(this.house);
+        ModalDialog?.Close();
+
 
     }
 
